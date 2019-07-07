@@ -1,8 +1,0 @@
-#!/bin/bash
-apt  --installed list | grep hdparm >/dev/null
-if [ $? -eq 0 ]; 
-then
-echo hdparm OK
-else
-apt install hdparm >/dev/null
-fi
