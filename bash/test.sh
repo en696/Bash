@@ -1,3 +1,3 @@
 #!/bin/bash
-DRUGI=`echo drugi`
+DRUGI="drugi"
 echo RUNDECK:DATA:DRUGI = $DRUGI
